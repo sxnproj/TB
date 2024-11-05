@@ -4,6 +4,10 @@ The initialization of the device is constrained to allow for better control of k
 
 The transactions are randomized and checked with monitors on both the host and device side interfaces for correct functionality.
 
+The testbench currently has a overall code coverage of 69% and a FSM coverage of 74% using the Cadence coverage analysis center IMC. This coverage will be higher once high speed mode and Control transfers are enabled.
+
+Assertions and Covergroups are not currently implemented
+
 UVM               - contains all the UVM files of the testbench
 
 usbf_top_test.sv  - is the uvm_test file that instantiates the testbench
